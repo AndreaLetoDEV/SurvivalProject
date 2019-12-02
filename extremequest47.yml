@@ -6,15 +6,15 @@ tasks:
 display:
   name: "&e&nExtreme Quest:&r &e#47"
   lore-normal:
-  - "&7This quest will require you to obtain a lot"
-  - "&7of resources before receiving the reward."
+  - "&7Questa quest ti richiede di ottenere molte"
+  - "&7risorse prima di ricevere un premio."
   - "&r"
-  - "&6◆ &eObjective:&r &7Mine 18 stacks of soul sand."
-  - "&6◆ &eProgress:&r &7{mining:progress}/1152 soul sand."
-  - "&6◆ &eReward:&r &a$20,000"
+  - "&6◆ &eObiettivo:&r &7Scava 18 stack di blocchi di sabbia delle anime."
+  - "&6◆ &eProgresso:&r &7{mining:progress}/1,152 blocchi di sabbia delle anime."
+  - "&6◆ &eRicompensa:&r &a$20,000"
   - "&r"
   lore-started:
-  - "&a&k;&r&f&k;&r &a(!) You have started this quest."
+  - "&a&k;&r&f&k;&r &a(!) Hai iniziato questa quest."
   type: "SOUL_SAND"
 rewards:
   - "eco give {player} 20000"

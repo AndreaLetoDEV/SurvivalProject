@@ -5,15 +5,15 @@ tasks:
 display:
   name: "&3&nAnimal Quest:&r &e#8"
   lore-normal:
-  - "&7This quest will require to do something"
-  - "&7with animals before receiving the reward."
+  - "&7Questa quest ti chiederà di fare quaclosa"
+  - "&7che ha a che fare con gli animali prima di ricevere una riconpensa."
   - "&r"
-  - "&6◆ &eObjective:&r &7Tame 25 mobs."
-  - "&6◆ &eProgress:&r &7{taming:progress}/25 mobs."
-  - "&6◆ &eReward:&r &a400 experience"
+  - "&6◆ &eObiettivo:&r &7Addomestica 50 animali."
+  - "&6◆ &eProgresso:&r &7{taming:progress}/25 animali."
+  - "&6◆ &eReward:&r &a400 punti esperienza"
   - "&r"
   lore-started:
-  - "&a&k;&r&f&k;&r &a(!) You have started this quest."
+  - "&a&k;&r&f&k;&r &a(!) Hai iniziato questa quest."
   type: "BONE"
 rewards:
   - "xp give {player} 400"

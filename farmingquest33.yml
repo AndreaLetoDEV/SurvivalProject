@@ -7,21 +7,21 @@ tasks:
 display:
   name: "&a&nFarming Quest:&r &e#33"
   lore-normal:
-  - "&7This quest will require you to farm certain"
-  - "&7resources before receiving the reward."
+  - "&7Questa quest ti richiederà di coltivare alcune"
+  - "&7risorse prima di ricevere una ricompensa."
   - "&r"
-  - "&6◆ &eObjective:&r &7Obtain 200 eggs."
-  - "&6◆ &eProgress:&r &7{gathering:progress}/200 eggs."
-  - "&6◆ &eReward:&r &a4,000 experience"
+  - "&6◆ &eObiettivo:&r &7Ottieni 200 uova."
+  - "&6◆ &eProgresso:&r &7{gathering:progress}/200 uova."
+  - "&6◆ &eRicompensa:&r &a4,000 punti esperienza"
   - "&r"
   lore-started:
-  - "&a&k;&r&f&k;&r &a(!) You have started this quest."
+  - "&a&k;&r&f&k;&r &a(!) Hai iniziato questa quest."
   type: "EGG"
 rewards:
   - "xp give {player} 4000"
 options:
   category: "farming"
-  requires: []
+  requires: [farmingquest31,farmingquest32]
   repeatable: true
   cooldown:
     enabled: true

@@ -1,26 +1,26 @@
 tasks:
-  mining:
-    type: "blockbreakcertain"
-    amount: 512
-    block: "SUGAR_CANE"
+  gathering:
+    type: "inventory"
+    amount: 516
+    item: "SUGAR_CANE"
 display:
   name: "&a&nFarming Quest:&r &e#21"
   lore-normal:
-  - "&7This quest will require you to farm certain"
-  - "&7resources before receiving the reward."
+  - "&7Questa quest ti richiederà di coltivare alcune"
+  - "&7risorse prima di ricevere una ricompensa."
   - "&r"
-  - "&6◆ &eObjective:&r &7Harvest 512 sugar cane."
-  - "&6◆ &eProgress:&r &7{mining:progress}/512 sugar cane."
-  - "&6◆ &eReward:&r &a3,000 experience"
+  - "&6◆ &eObiettivo:&r &7Coltiva 516 canne da zucchero."
+  - "&6◆ &eProgresso:&r &7{gathering:progress}/516 canne da zucchero."
+  - "&6◆ &eRicompensa:&r &a3,000 punti esperienza"
   - "&r"
   lore-started:
-  - "&a&k;&r&f&k;&r &a(!) You have started this quest."
+  - "&a&k;&r&f&k;&r &a(!) Hai iniziato questa quest."
   type: "SUGAR_CANE"
 rewards:
   - "xp give {player} 3000"
 options:
   category: "farming"
-  requires: []
+  requires: [farmingquest19,farmingquest20]
   repeatable: true
   cooldown:
     enabled: true

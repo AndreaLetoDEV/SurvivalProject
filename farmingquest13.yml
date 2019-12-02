@@ -7,15 +7,15 @@ tasks:
 display:
   name: "&a&nFarming Quest:&r &e#13"
   lore-normal:
-  - "&7This quest will require you to farm certain"
-  - "&7resources before receiving the reward."
+  - "&7Questa quest ti richiede di coltivare alcune"
+  - "&7risorse prima di ricevere un premio."
   - "&r"
-  - "&6◆ &eObjective:&r &7Cook 9 bowls of mushroom stew."
-  - "&6◆ &eProgress:&r &7{cooking:progress}/5 stews."
-  - "&6◆ &eReward:&r &a750 experience"
+  - "&6◆ &eObiettivo:&r &7Prepara 9 ciotole di zuppa di funghi."
+  - "&6◆ &eProgresso:&r &7{cooking:progress}/9 ciotole di zuppa di funghi."
+  - "&6◆ &eRicompensa:&r &a750 punti esperienza"
   - "&r"
   lore-started:
-  - "&a&k;&r&f&k;&r &a(!) You have started this quest."
+  - "&a&k;&r&f&k;&r &a(!) Hai iniziato questa quest."
   type: "MUSHROOM_STEW"
 rewards:
   - "xp give {player} 750"

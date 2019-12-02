@@ -6,21 +6,21 @@ tasks:
 display:
   name: "&c&nCombat Quest:&r &e#34"
   lore-normal:
-  - "&7This quest will require you to kill certain"
-  - "&7entities before receiving the reward."
+  - "&7Questa quest ti chiede di uccidere alcune"
+  - "&7entità prima di ricevere una ricompensa."
   - "&r"
-  - "&6◆ &eObjective:&r &7Kill 100 blaze."
-  - "&6◆ &eProgress:&r &7{killing:progress}/100 blaze."
-  - "&6◆ &eReward:&r &a48x Exp Bottles"
+  - "&6◆ &eObiettivo:&r &7Uccidi 100 Blaze."
+  - "&6◆ &eProgresso:&r &7{killing:progress}/100 blaze."
+  - "&6◆ &eRicompensa:&r &a48x Bottiglie di esperienza"
   - "&r"
   lore-started:
-  - "&a&k;&r&f&k;&r &a(!) You have started this quest."
+  - "&a&k;&r&f&k;&r &a(!) hai iniziato questa quest."
   type: "BLAZE_ROD"
 rewards:
   - "give {player} EXPERIENCE_BOTTLE 48"
 options:
   category: "combat"
-  requires: []
+  requires: [combatquest33]
   repeatable: true
   cooldown:
     enabled: true

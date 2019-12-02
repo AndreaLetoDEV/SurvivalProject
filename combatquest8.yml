@@ -6,21 +6,21 @@ tasks:
 display:
   name: "&c&nCombat Quest:&r &e#8"
   lore-normal:
-  - "&7This quest will require you to kill certain"
-  - "&7entities before receiving the reward."
+    - "&7Questa quest ti chiede di uccidere alcune"
+  - "&7entità prima di ricevere una ricompensa."
   - "&r"
-  - "&6◆ &eObjective:&r &7Kill 500 zombies."
-  - "&6◆ &eProgress:&r &7{killing:progress}/500 zombies."
-  - "&6◆ &eReward:&r &a128x Exp Bottles"
+  - "&6◆ &eObjectivo:&r &7Uccidi 500 zombie."
+  - "&6◆ &eProgresso:&r &7{killing:progress}/500 zombie."
+  - "&6◆ &eRicompensa:&r &a128x Bottiglie di esperienza"
   - "&r"
   lore-started:
-  - "&a&k;&r&f&k;&r &a(!) You have started this quest."
+  - "&a&k;&r&f&k;&r &a(!) Hai iniziato questa quest."
   type: "ROTTEN_FLESH"
 rewards:
   - "give {player} EXPERIENCE_BOTTLE 128"
 options:
   category: "combat"
-  requires: []
+  requires: [combatquest5,combatquest6,combatquest7]
   repeatable: true
   cooldown:
     enabled: true

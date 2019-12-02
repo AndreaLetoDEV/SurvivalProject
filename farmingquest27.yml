@@ -6,21 +6,21 @@ tasks:
 display:
   name: "&a&nFarming Quest:&r &e#27"
   lore-normal:
-  - "&7This quest will require you to farm certain"
-  - "&7resources before receiving the reward."
+  - "&7Questa quest ti richiederà di coltivare alcune"
+  - "&7risorse prima di ricevere una ricompensa."
   - "&r"
-  - "&6◆ &eObjective:&r &7Harvest 512 melon."
-  - "&6◆ &eProgress:&r &7{mining:progress}/512 melon."
-  - "&6◆ &eReward:&r &a3,000 experience"
+  - "&6◆ &eObiettivo:&r &7Coltiva 512 angurie."
+  - "&6◆ &eProgresso:&r &7{mining:progress}/512 angurie."
+  - "&6◆ &eRicompensa:&r &a3000 punti esperienza"
   - "&r"
   lore-started:
-  - "&a&k;&r&f&k;&r &a(!) You have started this quest."
+  - "&a&k;&r&f&k;&r &a(!) Hai iniziato questa quest."
   type: "MELON"
 rewards:
   - "xp give {player} 3000"
 options:
   category: "farming"
-  requires: []
+  requires: [farmingquest25,farmingquest26]
   repeatable: true
   cooldown:
     enabled: true

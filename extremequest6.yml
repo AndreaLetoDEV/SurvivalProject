@@ -6,15 +6,15 @@ tasks:
 display:
   name: "&e&nExtreme Quest:&r &e#6"
   lore-normal:
-  - "&7This quest will require you to obtain a lot"
-  - "&7of resources before receiving the reward."
+  - "&7Questa quest ti richiede di ottenere molte"
+  - "&7risorse prima di ricevere un premio."
   - "&r"
-  - "&6◆ &eObjective:&r &7Break 18 stacks of oak logs."
-  - "&6◆ &eProgress:&r &7{mining:progress}/1152 oak logs."
-  - "&6◆ &eReward:&r &a$20,000"
+  - "&6◆ &eObiettivo:&r &7Rompi 18 stack di tronchi di quercia."
+  - "&6◆ &eProgresso:&r &7{mining:progress}/1152 tronchi di quercia."
+  - "&6◆ &eRicompensa:&r &a$20,000"
   - "&r"
   lore-started:
-  - "&a&k;&r&f&k;&r &a(!) You have started this quest."
+  - "&a&k;&r&f&k;&r &a(!) Hai iniziato questa quest."
   type: "OAK_LOG"
 rewards:
   - "eco give {player} 20000"

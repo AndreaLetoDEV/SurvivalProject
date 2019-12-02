@@ -6,23 +6,23 @@ tasks:
 display:
   name: "&9&nBuilding Quest:&r &e#10"
   lore-normal:
-  - "&7This quest will require to build a"
-  - "&7structure before receiving the reward."
+  - "&7Questa quest ti chiederà di costruire"
+  - "&7una struttura per ricevere una ricompensa."
   - "&r"
-  - "&6◆ &eObjective:&r &7Build a nether portal."
-  - "&6◆ &eProgress:&r"
-  - "        &6◆ &7{cobble:progress}/14 obsidian"
-  - "&6◆ &eReward:&r &a100 experience"
+  - "&6◆ &eObiettivo:&r &7Costruisci un portale del nether."
+  - "&6◆ &eProgresso:&r"
+  - "        &6◆ &7{cobble:progress}/14 blocchi di ossidiana"
+  - "&6◆ &eRiconpensa:&r &a100 punti esperienza"
   - "&r"
   lore-started:
-  - "&a&k;&r&f&k;&r &a(!) You have started this quest."
+  - "&a&k;&r&f&k;&r &a(!) Hai iniziato questa quest."
   type: "OBSIDIAN"
 rewards:
   - "xp give {player} 100"
 options:
   category: "building"
   requires: []
-  repeatable: true
+  repeatable: false
   cooldown:
     enabled: true
     time: 2880

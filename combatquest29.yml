@@ -6,19 +6,19 @@ tasks:
 display:
   name: "&c&nCombat Quest:&r &e#29"
   lore-normal:
-  - "&7This quest will require you to kill certain"
-  - "&7entities before receiving the reward."
+  - "&7Questa quest ti chiede di uccidere alcune"
+  - "&7entità prima di ricevere una ricompensa."
   - "&r"
-  - "&6◆ &eObjective:&r &7Kill 50 ghasts."
-  - "&6◆ &eProgress:&r &7{killing:progress}/50 ghasts."
-  - "&6◆ &eReward:&r &a1x Combat Bow"
-  - "&7&o(Power 4, Flame 1, Infinity 1, Unbreaking 2, Punch 1)"
+  - "&6◆ &eObiettivo:&r &7Uccidi 50 ghasts."
+  - "&6◆ &eProgresso:&r &7{killing:progress}/50 ghasts."
+  - "&6◆ &eRicompensa:&r &a1x Arco da combattimento"
+  - "&7&o(Potenza 4, Fiamma 1, infinità 1, indistruttibilità 2, Impatto 1)"
   - "&r"
   lore-started:
-  - "&a&k;&r&f&k;&r &a(!) You have started this quest."
+  - "&a&k;&r&f&k;&r &a(!) Hai iniziato questa quest."
   type: "GHAST_TEAR"
 rewards:
-  - "give {player} bow 1 power:4 flame:1 infinity:1 punch:1 unbreaking:2 name:&4Combat_Bow"
+  - "give {player} bow 1 power:4 flame:1 infinity:1 punch:1 unbreaking:2 name:&4Arco_da_Combattimento"
 options:
   category: "combat"
   requires: []

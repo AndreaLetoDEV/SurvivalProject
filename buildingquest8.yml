@@ -10,20 +10,20 @@ tasks:
 display:
   name: "&9&nBuilding Quest:&r &e#8"
   lore-normal:
-  - "&7This quest will require to build a"
-  - "&7structure before receiving the reward."
+  - "&7Questa quest ti chiederà di costruire"
+  - "&7una struttura per ricevere una ricompensa."
   - "&r"
-  - "&6◆ &eObjective:&r &7Summon a snowman."
-  - "&6◆ &eProgress:&r"
-  - "        &6◆ &7{snow:progress}/2 snow blocks"
-  - "        &6◆ &7{pumpkin:progress}/1 carved pumpkin"
-  - "&6◆ &eReward:&r &a150 experience"
+  - "&6◆ &eObiettivo:&r &7Crea un pupazzo di neve."
+  - "&6◆ &eProgresso:&r"
+  - "        &6◆ &7{snow:progress}/2 blocchi di neve"
+  - "        &6◆ &7{pumpkin:progress}/1 zucca intagliata
+  - "&6◆ &eRicompensa:&r &a50 punti esperienza"
   - "&r"
   lore-started:
-  - "&a&k;&r&f&k;&r &a(!) You have started this quest."
+  - "&a&k;&r&f&k;&r &a(!) Hai iniziato questa quest."
   type: "SNOW_BLOCK"
 rewards:
-  - "xp give {player} 150"
+  - "xp give {player} 50"
 options:
   category: "building"
   requires: []

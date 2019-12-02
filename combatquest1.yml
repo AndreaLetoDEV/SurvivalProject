@@ -5,15 +5,15 @@ tasks:
 display:
   name: "&c&nCombat Quest:&r &e#1"
   lore-normal:
-  - "&7This quest will require you to kill certain"
-  - "&7entities before receiving the reward."
+  - "&7Questa quest ti chiede di uccidere alcune"
+  - "&7entità prima di ricevere una ricompensa."
   - "&r"
-  - "&6◆ &eObjective:&r &7Kill 5 players."
-  - "&6◆ &eProgress:&r &7{killing:progress}/5 players."
-  - "&6◆ &eReward:&r &aSharpness III Book"
+  - "&6◆ &eObiettivo:&r &7Uccidi 5 utenti."
+  - "&6◆ &eProgresso:&r &7{killing:progress}/5 utenti."
+  - "&6◆ &eRicompensa:&r &aLibro Affilatezza III"
   - "&r"
   lore-started:
-  - "&a&k;&r&f&k;&r &a(!) You have started this quest."
+  - "&a&k;&r&f&k;&r &a(!) Hai iniziato questa quest."
   type: "WOODEN_SWORD"
 rewards:
   - "give {player} minecraft:enchanted_book 1 0 {StoredEnchantments:[{id:16,lvl:3}]}"
