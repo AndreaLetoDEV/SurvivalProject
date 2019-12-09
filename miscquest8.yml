@@ -5,21 +5,21 @@ tasks:
 display:
   name: "&d&nMiscellaneous Quest:&r &e#8"
   lore-normal:
-  - "&7This quest will require you to do something"
-  - "&7before receiving the reward."
+  - "&7Questa quest ti richiederà di fare qualcosa"
+  - "&7prima di ricevere una ricompensa."
   - "&r"
-  - "&6◆ &eObjective:&r &7Walk 20,000 blocks."
-  - "&6◆ &eProgress:&r &7{misc:progress}/20000 blocks."
-  - "&6◆ &eReward:&r &a10,000 experience"
+  - "&6◆ &eObiettivo:&r &7Cammina per 20 km."
+  - "&6◆ &eProgresso:&r &7{misc:progress}/20 km."
+  - "&6◆ &eRicompensa:&r &a$10,000"
   - "&r"
   lore-started:
-  - "&a&k;&r&f&k;&r &a(!) You have started this quest."
+  - "&a&k;&r&f&k;&r &a(!) Hai iniziato questa quest."
   type: "IRON_BOOTS"
 rewards:
   - "xp give {player} 10000"
 options:
   category: "misc"
-  requires: []
+  requires: [miscquest6,miscquest7]
   repeatable: true
   cooldown:
     enabled: true

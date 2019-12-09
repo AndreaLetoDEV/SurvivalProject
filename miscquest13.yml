@@ -1,23 +1,23 @@
 tasks:
   position:
     type: "position"
-    x: 1000
+    x: 2000
     y: 75
-    z: 1000
+    z: 2000
     world: world
     distance-padding: 50 
 display:
   name: "&d&nMiscellaneous Quest:&r &e#13"
   lore-normal:
-  - "&7This quest will require you to do something"
-  - "&7before receiving the reward."
+  - "&7Questa quest ti richiederà di fare qualcosa"
+  - "&7prima di ricevere una ricompensa."
   - "&r"
-  - "&6◆ &eObjective:&r &7Travel to 1,000, 75, 1,000 (XYZ)"
-  - "&6◆ &eProgress:&r &7???"
-  - "&6◆ &eReward:&r &a2,000 experience"
+  - "&6◆ &eObiettivo:&r &7Raggiungi le coordinate 2,000, 75, 2,000 (XYZ)."
+  - "&6◆ &eProgresso:&r &7in corso."
+  - "&6◆ &eRicompensa:&r &a2,000 punti esperienza."
   - "&r"
   lore-started:
-  - "&a&k;&r&f&k;&r &a(!) You have started this quest."
+  - "&a&k;&r&f&k;&r &a(!) Hai iniziato questa quest."
   type: "SLIME_BALL"
 rewards:
   - "xp give {player} 2000"

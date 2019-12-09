@@ -7,15 +7,15 @@ tasks:
 display:
   name: "&f&nGathering Quest:&r &e#8"
   lore-normal:
-  - "&7This quest will require you to gather"
-  - "&7certain resources receiving the reward."
+  - "&7Questa quest ti richiederà di ottenere alcune"
+  - "&7risorse prima di ricevere una ricompensa."
   - "&r"
-  - "&6◆ &eObjective:&r &7Gather 64 ghast tears."
-  - "&6◆ &eProgress:&r &7{gathering:progress}/64 ghast tears."
-  - "&6◆ &eReward:&r &a500 experience"
+  - "&6◆ &eObiettivo:&r &7Ottieni 64 lacrime di ghast."
+  - "&6◆ &eProgresso:&r &7{gathering:progress}/64 lacrime di ghast."
+  - "&6◆ &eRicompensa:&r &a500 punti esperienza"
   - "&r"
   lore-started:
-  - "&a&k;&r&f&k;&r &a(!) You have started this quest."
+  - "&a&k;&r&f&k;&r &a(!) Hai iniziato questa quest."
   type: "GHAST_TEAR"
 rewards:
   - "xp give {player} 500"

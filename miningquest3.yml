@@ -6,21 +6,21 @@ tasks:
 display:
   name: "&b&nMining Quest:&r &e#3"
   lore-normal:
-  - "&7This quest will require you to mine certain"
-  - "&7resources before receiving the reward."
+  - "&7Questa quest ti richiederà di scavare alcune"
+  - "&7risorse prima di ricevere una ricompensa."
   - "&r"
-  - "&6◆ &eObjective:&r &7Break 5,000 stone."
-  - "&6◆ &eProgress:&r &7{mining:progress}/5000 stone."
-  - "&6◆ &eReward:&r &a1x Mining Pickaxe"
+  - "&6◆ &eObiettivo:&r &7Scava 5000 blocchi di pietra."
+  - "&6◆ &eProgresso:&r &7{mining:progress}/5000 blocchi di pietra."
+  - "&6◆ &eRicompensa:&r &a1x Piccone del Minatore"
   - "&r"
   lore-started:
-  - "&a&k;&r&f&k;&r &a(!) You have started this quest."
+  - "&a&k;&r&f&k;&r &a(!) Hai iniziato questa quest."
   type: "STONE"
 rewards:
   - "give {player} diamond_pickaxe 1 efficiency:4 unbreaking:2 fortune:3"
 options:
   category: "mining"
-  requires: []
+  requires: [miningquest1,miningquest2]
   repeatable: true
   cooldown:
     enabled: true

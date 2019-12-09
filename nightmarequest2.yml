@@ -7,17 +7,17 @@ tasks:
 display:
   name: "&4&nNightmare Quest:&r &e#2"
   lore-normal:
-  - "&7This quest will require you to solve the"
-  - "&7riddle before receiving the reward."
+  - "&7Questa quest ti richiederà di risolvere un"
+  - "&7enigma prima di ricevere una ricompensa."
   - "&r"
-  - "&6◆ &eRiddle:&r &7This will be my lighthouse when"
-  - "&7                      I am lost."
-  - "&6◆ &eProgress:&r &7N/A"
-  - "&6◆ &eReward:&r &a1x Nightmare Boots"
-  - "&7&o(Protection IV, Fire Protection III, Unbreaking III)"
+  - "&6◆ &eEnigma:&r &7Questo ti illuminerà la via verso casa"
+  - "&7                      quando non trovo la via."
+  - "&6◆ &eProgresso:&r &7Non disponibile"
+  - "&6◆ &eRicompensa:&r &a1x Nightmare Boots"
+  - "&7&o(Protezione IV, Protezione dal fuoco III, Industruttibilità III)"
   - "&r"
   lore-started:
-  - "&a&k;&r&f&k;&r &a(!) You have started this quest."
+  - "&a&k;&r&f&k;&r &a(!) Hai iniziato questa quest."
   type: "IRON_BARS"
 rewards:
   - "give {player} DIAMOND_BOOTS 1 protection:4 fireprotection:3 unbreaking:3 name:&8&l◆_&4&lNIGHTMARE_BOOTS_&8◆"

@@ -6,15 +6,15 @@ tasks:
 display:
   name: "&b&nMining Quest:&r &e#21"
   lore-normal:
-  - "&7This quest will require you to mine certain"
-  - "&7resources before receiving the reward."
+  - "&7Questa quest ti richiederà di scavare alcune"
+  - "&7risorse prima di ricevere una ricompensa."
   - "&r"
-  - "&6◆ &eObjective:&r &7Break 75 spruce logs."
-  - "&6◆ &eProgress:&r &7{mining:progress}/75 spruce logs."
-  - "&6◆ &eReward:&r &a$10,000"
+  - "&6◆ &eObiettivo:&r &7Rompi 75 tronchi di abete."
+  - "&6◆ &eProgresso:&r &7{mining:progress}/75 tronchi di abete."
+  - "&6◆ &eRicompensa:&r &a$10,000"
   - "&r"
   lore-started:
-  - "&a&k;&r&f&k;&r &a(!) You have started this quest."
+  - "&a&k;&r&f&k;&r &a(!) Hai iniziato questa quest."
   type: "SPRUCE_LOG"
 rewards:
   - "eco give {player} 10000"

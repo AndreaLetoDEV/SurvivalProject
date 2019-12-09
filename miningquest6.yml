@@ -6,15 +6,15 @@ tasks:
 display:
   name: "&b&nMining Quest:&r &e#6"
   lore-normal:
-  - "&7This quest will require you to mine certain"
-  - "&7resources before receiving the reward."
+  - "&7Questa quest ti richiederà di scavare alcune"
+  - "&7risorse prima di ricevere una ricompensa."
   - "&r"
-  - "&6◆ &eObjective:&r &7Break 100 gold ore."
-  - "&6◆ &eProgress:&r &7{mining:progress}/100 gold ore."
-  - "&6◆ &eReward:&r &a$35,000"
+  - "&6◆ &eObiettivo:&r &7Scava 100 blocchi di oro grezzo."
+  - "&6◆ &eProgresso:&r &7{mining:progress}/100 blocchi di oro grezzo."
+  - "&6◆ &eRicompensa:&r &a$35,000"
   - "&r"
   lore-started:
-  - "&a&k;&r&f&k;&r &a(!) You have started this quest."
+  - "&a&k;&r&f&k;&r &a(!) Hai iniziato questa quest."
   type: "GOLD_ORE"
 rewards:
   - "eco give {player} 35000"
